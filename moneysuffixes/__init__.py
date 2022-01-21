@@ -1,6 +1,6 @@
 __author__ = "moneysuffixes"
 __copyright__ = "Copyright 2021-present CantCode"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 import logging
 from typing import NamedTuple
