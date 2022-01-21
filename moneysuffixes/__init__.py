@@ -10,6 +10,8 @@ try:
 except ImportError:
     from typing_extensions import Literal
 
+from .main import shorten
+
 class VersionInfo(NamedTuple):
     """
     Represents the package's version info.
