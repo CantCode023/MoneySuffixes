@@ -1,6 +1,6 @@
 __author__ = "moneysuffixes"
 __copyright__ = "Copyright 2021-present CantCode"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 import logging
 from typing import NamedTuple
@@ -10,7 +10,7 @@ try:
 except ImportError:
     from typing_extensions import Literal
 
-from .main import shorten
+from .main import Money
 
 class VersionInfo(NamedTuple):
     """
